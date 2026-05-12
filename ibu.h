@@ -8,3 +8,11 @@
 using namespace std;
 
 // Forward declaration
+class anak;
+
+class ibu {
+public:
+    string nama;
+    vector<anak*> daftar_anak;
+
+   
