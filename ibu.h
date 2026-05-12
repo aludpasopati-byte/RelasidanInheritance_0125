@@ -22,4 +22,13 @@ public:
     ~ibu() {
         cout << "Ibu \"" << nama << "\" tidak ada\n";
     }
+    void tambahAnak(anak* pAnak);
+    void cetakAnak();
+};
+
+#include "anak.h"
+
+void ibu::tambahAnak(anak* pAnak) {
+    daftar_anak.push_back(pAnak);
+}
 
