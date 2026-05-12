@@ -38,7 +38,7 @@ public:
     void cetakPasien();
 };
 
-oid pasien::tambahDokter(dokter* pDokter) {
+void pasien::tambahDokter(dokter* pDokter) {
     daftar_dokter.push_back(pDokter);
 }
 
