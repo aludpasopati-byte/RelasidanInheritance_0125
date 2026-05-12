@@ -1,17 +1,11 @@
-#ifndef JANTUNG_H
-#define JANTUNG_H
+#include <iostream>
+#include <string>
+using namespace std;
 
-#include <iostream> // Diperlukan untuk menggunakan cout
+#include "jantung.h"
+#include "manusia.h"
 
-class jantung {
-public:
-    jantung() {
-        std::cout << "jantung dihidupkan\n";
-    }
-
-    ~jantung() {
-        std::cout << "jantung dimatikan\n";
-    }
-};
-
-#endif
+int main()
+{
+    manusia *varManusia = new manusia("Markus");
+}
